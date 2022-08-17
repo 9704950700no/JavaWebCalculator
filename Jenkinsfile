@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'sh mvn build'
+        sh 'sh mvn deploy'
       }
     }
 
